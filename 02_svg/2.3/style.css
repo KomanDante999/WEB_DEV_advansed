@@ -1,0 +1,7 @@
+.circle {
+    color: chocolate;
+}
+
+.circle:hover {
+    color: rgb(210, 30, 210);
+}

@@ -1,0 +1,31 @@
+.body {
+    background-color: #E5E5E5;;
+}
+
+.container {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 50px;
+    margin: 0 auto;
+}
+
+.contant {
+    width: 800px;
+    height: 800px;
+    border: 1px solid black;
+}
+
+.white {
+    fill: white;
+}
+
+.grey {
+    fill:  hsla(0, 0%, 29%, 1);
+}
+
+.black {
+    fill: hsla(0, 0%, 0%, 1);
+}
+
+

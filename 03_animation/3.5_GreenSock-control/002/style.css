@@ -1,0 +1,17 @@
+/* Global styles come from external css https://codepen.io/GreenSock/pen/JGaKdQ*/
+
+body {
+  margin: 10px;
+}
+
+.box {
+  display: block;
+}
+
+button {
+  text-transform: none;
+}
+
+.pink {
+  background-color: pink;
+}

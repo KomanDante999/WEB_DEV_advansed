@@ -1,0 +1,23 @@
+.grid {
+    display: grid;
+    width: 1500px;
+    margin: 0 auto;
+
+    grid-template-columns: 
+        repeat(3, 1fr)
+    ;
+
+    grid-template-rows:
+        repeat(3, 150px)
+    ;
+
+    gap: 20px 30px;
+}
+
+
+
+.grid__item {
+    height: 100px;
+    background-color: blueviolet;
+    border: 1px solid white;
+}

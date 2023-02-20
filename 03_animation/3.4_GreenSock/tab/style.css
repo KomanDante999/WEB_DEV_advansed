@@ -1,0 +1,39 @@
+
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  margin: 1rem;
+  padding: 1rem;
+  background: rgba(200,200,200,.25);
+
+  /* &:hover {
+    background: rgba(200,200,200,.5);
+  }
+
+  &.active {
+    background: lightcoral;
+  } */
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.content-wrapper {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  height: 0px;
+}
+
+.content {
+  margin: 0;
+  padding-bottom: .1rem;
+}

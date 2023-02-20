@@ -1,0 +1,17 @@
+svg:hover {
+  fill: red;
+  stroke: blue;
+  stroke-width: 1;
+}
+
+svg {
+  stroke: blue;
+  stroke-width: 1;
+  stroke-dasharray: 1 1;
+  transition-property: stroke-dasharray;
+  transition-duration: 1000ms;
+}
+
+svg:hover {
+  stroke-dasharray: 10 0;
+}

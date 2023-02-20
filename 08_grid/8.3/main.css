@@ -1,0 +1,42 @@
+.grid {
+    display: grid;
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 10px 40px;
+
+    grid-template-columns: 
+    minmax(50px, 1fr)
+    minmax(350px, 2fr)
+    minmax(150px, 1fr)
+    minmax(150px, 1fr)
+    minmax(180px, 1fr)
+    ;
+
+    grid-auto-rows: 60px;
+}
+
+.grid__item {
+    background-color: blueviolet;
+    border: 1px solid white;
+}
+
+.t-body,
+.head-row,
+.body-row {
+    display: contents;
+} 
+
+.body-row:hover .grid__item {
+    cursor: pointer;
+    background-color: cadetblue;
+}
+
+
+
+
+/* thead,
+tbody,
+tr {
+display: contents;
+} */
+
