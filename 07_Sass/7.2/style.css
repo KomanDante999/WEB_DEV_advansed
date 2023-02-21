@@ -1,0 +1,45 @@
+.container {
+  max-width: 1170px;
+  padding: 20px 40px;
+  margin: 0 auto;
+  background-color: brown;
+}
+
+.container__free {
+  padding: 20px 40px;
+  margin: 0 auto;
+  background-color: brown;
+}
+
+body {
+  background-color: cadetblue;
+}
+body h1 {
+  position: relative;
+  color: blueviolet;
+}
+body h1:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  pointer-events: none;
+}
+
+.block {
+  width: 200px;
+}
+.block__elem1 {
+  height: 40px;
+  background-color: red;
+}
+.block__elem2 {
+  height: 40px;
+  background-color: #395f60;
+}
+.block__elem3 {
+  height: 40px;
+  background-color: #c1ff62;
+}/*# sourceMappingURL=style.css.map */

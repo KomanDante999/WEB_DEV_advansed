@@ -1,0 +1,56 @@
+$bc: cadetblue;
+
+@mixin container {
+  padding: 20px 40px;
+  margin: 0 auto;
+  background-color: brown;
+}
+
+@mixin ghost {
+  &:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    pointer-events: none;
+  }
+}
+
+.container {
+  max-width: 1170px;
+  @include container()
+}
+
+.container__free {
+  @include container()
+}
+
+
+
+body {
+  background-color: $bc;
+
+  h1 {
+    position: relative;
+    color: blueviolet;
+    @include ghost()
+  }
+}
+
+.block {
+  width: 200px;
+  &__elem1{
+    height: 40px;
+    background-color: red;
+  }
+  &__elem2{
+    height: 40px;
+    background-color:darken($bc, 20%) ;
+  }
+  &__elem3{
+    height: 40px;
+    background-color: lighten(greenyellow, 10%);
+  }
+}
